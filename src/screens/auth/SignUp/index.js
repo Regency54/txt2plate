@@ -278,7 +278,7 @@ const SignUp = () => {
             isIcon={true}
             iconName={'user'}
             iconType={'font-awesome'}
-            placeholder={'Vehicle Registeration'}
+            placeholder={'Vehicle Registration'}
             value={vehicleReg}
             onChange={text => setVehicleReg(text.toUpperCase())}
             isError={vError}
